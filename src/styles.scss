@@ -1,0 +1,54 @@
+@media screen and (min-width: 641px) {
+  .menu {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: #547cc4;
+
+    .box {
+      height: 20px;
+      width: 100vw;
+      justify-content: center;
+      text-align: center;
+
+      &.box:hover {
+        background-color: #1b3463;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-page {
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+    border-width: 10px;
+    border-color: black;
+    border-style: ridge;
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      background-color: #547cc4;
+
+      .box {
+        align-content: center;
+        text-align: center;
+        height: 40px;
+        width: 100vw;
+
+        &.box:hover {
+          background-color: #1b3463;
+        }
+
+        .text {
+          margin: 30px;
+        }
+      }
+    }
+  }
+}
